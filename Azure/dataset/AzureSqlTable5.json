@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlTable5",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "AzureSqlTable5"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
